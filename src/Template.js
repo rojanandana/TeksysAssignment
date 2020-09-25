@@ -26,7 +26,7 @@ class Template extends Component {
 				</Navbar>
 				<BrowserRouter>
 					<Row>
-							<ListGroup.Item> <NavLink to="/stackedColumnChart">Stacked Column Chart</NavLink></ListGroup.Item>
+							
 	
 
 						<Col xl={{ span: 7, offset: 3 }} lg={{ span: 8, offset: 3 }} xs={{ span: 8, offset: 2 }}>
