@@ -2,14 +2,17 @@ import React, { Component } from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
+
+import ListGroup from 'react-bootstrap/ListGroup';
+
 import Container from 'react-bootstrap/Container';
-//import ListGroup from 'react-bootstrap/ListGroup';
+
 
 import {
 	Route,
-	BrowserRouter
+	BrowserRouter,NavLink
 } from "react-router-dom";
-
 import StackedColumnChart from "./StackedColumnChart";
 
 class Template extends Component {
@@ -23,14 +26,14 @@ class Template extends Component {
 				</Navbar>
 				<BrowserRouter>
 					<Row>
-							
+							<ListGroup.Item> <NavLink to="/stackedColumnChart">Stacked Column Chart</NavLink></ListGroup.Item>
 	
 
 						<Col xl={{ span: 7, offset: 3 }} lg={{ span: 8, offset: 3 }} xs={{ span: 8, offset: 2 }}>
 							<Container>
 								<div className="content">
 									
-									<Route path="/stackedcolumnchart" component={StackedColumnChart} />
+									<Route path="/StackedColumnChart" component={StackedColumnChart} />
 									
 								</div>
 							</Container>
