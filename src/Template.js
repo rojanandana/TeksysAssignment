@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
-
 import ListGroup from 'react-bootstrap/ListGroup';
+
+
 
 import Container from 'react-bootstrap/Container';
 
@@ -27,7 +27,7 @@ class Template extends Component {
 				<BrowserRouter>
 					<Row>
 							
-	
+	                              <ListGroup.Item> <NavLink to="/StackedColumnChart">Frontend Assignment-Citrix</NavLink></ListGroup.Item>
 
 						<Col xl={{ span: 7, offset: 3 }} lg={{ span: 8, offset: 3 }} xs={{ span: 8, offset: 2 }}>
 							<Container>
